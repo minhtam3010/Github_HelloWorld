@@ -1,4 +1,7 @@
 x = "This is MT and my dream is becoming a DEV"
 y = x.upper()
 
-print("Hello World" + " " + y)
+a = input("Your name: ")
+b = int(input("How old are you? : "))
+
+print("Hello World" + " " + a + " " + str(b) + " " + y)
